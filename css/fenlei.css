@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+em{
+	font-style: normal;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 4.5rem;
+	background: url(../img/wode/bg.png)no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	z-index: 99;
+	left: 0rem;
+	top: 0rem;
+}
+.header-1{
+	width: 100%;
+	height: 4.5rem;
+	/*background: url(../img/wode/bg.png)no-repeat;
+	background-size: 100% 100%;
+	position: absolute;*/
+	/*z-index: 99;*/
+	/*left: 0rem;
+	top: 0rem;*/
+	background: red;
+}
+.header-left{
+	width: 2.9rem;
+	height: 2.9rem;
+	left: 1rem;
+	top: 0.8rem;
+	position: absolute;
+}
+.header-sou{
+	width: 52%;
+	height: 2.6rem;
+	position: absolute;
+	left:17%;
+	margin-top:1rem;
+	border-radius:2rem ;
+	background: rgba(255,255,255,0.3);
+}
+.header-in{
+	width: 2.9rem;
+	height: 2.9rem;
+	position: absolute;
+	right:4.5rem;
+	margin-top:0.8rem;
+}
+.header-right{
+	width: 2.9rem;
+	height: 2.9rem;
+	position: absolute;
+	right: 3%;
+	margin-top:0.8rem;
+}
+.section-left{
+	width:21%;
+	height: 80%;
+	background: #EEEEEE;
+	position: fixed;
+	left: 0rem;
+	top: 4.5rem;
+}
+.section-left>ul>li{
+	font-size: 1.4rem;
+	text-align: center;
+	padding: 0.6rem 0rem;
+}
+.section-left>ul>li>a{
+	color: black;
+}
+.section-left>ul>li>a:hover{text-decoration: none;}
+.section-right{
+	width: 77%;
+	background: white;
+	position: absolute;
+	right: 1%;
+	top: 5rem;
+}
+.section-right>div>ul>li{
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+.section-right>div>ul>li>a>img{
+	width:5rem;
+	height: 5rem;
+}
+.section-right>div>ul>li>a>p{
+	font-size: 1.2rem;
+	color: black;
+	margin-top: 0.5rem;
+}
+footer{
+	width: 100%;
+	height: 4.5rem;
+	background: white;
+	position: fixed;
+	bottom: 0rem;
+	background: rgba(255,255,255,0.9);
+}
+footer>a{
+	position: absolute;
+	text-align: center;
+	color: gray;
+}
+footer>a>img{width:1.6rem;height: 1.6rem;}
+footer>a>p{font-size: 1.2rem;}
+.wd:hover{text-decoration: none;}
+footer>a:hover{text-decoration: none;color: gray;}

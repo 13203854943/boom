@@ -1,0 +1,13 @@
+$(".section-1>ul>li>.span-5").click(function(){
+	$(this).children("img").toggle();
+})
+$("section>.span-1").click(function(){
+	$(this).children("img").toggle();
+	$("footer>.span-5").children("img").toggle();
+	$(".section-1>ul>li>.span-5").children("img").toggle();
+})
+$("footer>.span-5").click(function(){
+	$(this).children("img").toggle();
+	$("section>.span-1").children("img").toggle();
+	$(".section-1>ul>li>.span-5").children("img").toggle();
+})

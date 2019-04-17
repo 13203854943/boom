@@ -1,0 +1,31 @@
+$(window).scroll(function(){
+	var hei=$(window).scrollTop();
+	if(hei>40){
+		$(".header-left").css("transform","rotateX(0deg)");
+	}
+	if(hei<40){
+		$(".header-left").css("transform","rotateX(90deg)");
+	}
+	
+})
+$(".section-2>a").click(function(){
+	$(this).css({"text-decoration":"none","color":"black"});
+})
+$(".section-3>a").click(function(){
+	$(this).css({"text-decoration":"none","color":"black"});
+})
+$("footer>a").click(function(){
+	$(this).css({"text-decoration":"none","color":"gray"});
+})
+$(".wd").click(function(){
+	$(this).css("color","indianred");
+})
+$(".section-5>ul>li>a").click(function(){
+	$(this).css({"text-decoration":"none","color":"black"});
+})
+$(".qb").click(function(){
+	$(this).css("text-decoration","none");
+})
+$(".dj").click(function(){
+	$(this).css("text-decoration","none");
+})
